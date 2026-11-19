@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Cadence</string>
+    <string name="brand_wordmark">CADENCE</string>
+    <string name="notifications_off_banner">Enable notifications for background alerts</string>
+    <string name="enable">Enable</string>
+
+    <!-- Pomodoro -->
+    <string name="phase_focus">Focus</string>
+    <string name="phase_short_break">Short</string>
+    <string name="phase_long_break">Long</string>
+    <string name="action_start">Start</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_resume">Resume</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_skip">Skip phase</string>
+    <string name="action_adjust_durations">Adjust timer durations</string>
+    <string name="pomodoro_session_progress">%1$d of %2$d sessions</string>
+    <string name="pomodoro_settings_title">Timer Durations</string>
+    <string name="focus_duration_label">Focus</string>
+    <string name="short_break_duration_label">Short Break</string>
+    <string name="long_break_duration_label">Long Break</string>
+    <string name="minutes_unit">%1$d min</string>
+    <string name="done">Done</string>
+
+    <!-- Water Reminder -->
+    <string name="water_title">Drink Water</string>
+    <string name="water_paused">Reminders paused</string>
+    <string name="water_next_in_minutes">Next in %1$dm</string>
+    <string name="water_next_soon">Next in under 1m</string>
+    <string name="water_toggle_cd">Toggle drink water reminder</string>
+    <string name="water_glasses_today_one">%1$d glass today</string>
+    <string name="water_glasses_today_other">%1$d glasses today</string>
+    <string name="water_log_glass">Log glass</string>
+    <string name="water_test_notification">Test alert</string>
+    <string name="water_test_sent">Test notification sent</string>
+    <string name="water_custom_interval">Custom</string>
+    <string name="water_custom_sheet_title">Water Interval</string>
+    <string name="water_interval_minutes_fmt">%1$dm</string>
+
+    <!-- Notification Channels & Copy -->
+    <string name="channel_pomodoro_ongoing_name">Active Timer</string>
+    <string name="channel_pomodoro_ongoing_desc">Shows remaining Pomodoro time while running in the background</string>
+    <string name="channel_pomodoro_alerts_name">Timer Complete</string>
+    <string name="channel_pomodoro_alerts_desc">Alerts when a focus session or break finishes</string>
+    <string name="channel_water_name">Drink Water Reminders</string>
+    <string name="channel_water_desc">Periodic reminders to drink water</string>
+
+    <string name="notif_focus_running_title">Focusing</string>
+    <string name="notif_short_break_running_title">Short Break</string>
+    <string name="notif_long_break_running_title">Long Break</string>
+    <string name="notif_timer_running_text">Timer running in background</string>
+    <string name="notif_action_pause">Pause</string>
+    <string name="notif_action_stop">Reset</string>
+    <string name="notif_action_start_break">Start Break</string>
+    <string name="notif_action_start_focus">Start Focus</string>
+
+    <string name="notif_focus_done_title">Focus complete</string>
+    <string name="notif_focus_done_body">Step back for a %1$d minute break.</string>
+    <string name="notif_break_done_title">Break over</string>
+    <string name="notif_break_done_body">Ready for your next %1$d minute focus block.</string>
+
+    <string name="notif_water_title">Time to hydrate</string>
+    <string name="notif_water_body">Take a moment to drink a glass of water.</string>
+    <string name="notif_action_drank_water">Drank Water (+1)</string>
+</resources>
